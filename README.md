@@ -37,8 +37,8 @@ docker run --network=foo --rm -v  ${PWD}:/local swaggerapi/swagger-codegen-cli g
 # How to run
 
 ``` elixir
-alias OpenAPIPetstore.Connection
-alias OpenAPIPetstore.Api.Store                 
+alias SwaggerPetstore.Connection
+alias SwaggerPetstore.Api.Store                 
 
 token = "special-key" 
 
